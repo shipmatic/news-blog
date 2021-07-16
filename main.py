@@ -19,7 +19,7 @@ from flask_ckeditor import CKEditorField
 import os
 
 app = Flask(__name__)
-app.config['KEY'] = os.environ.get('KEY')
+app.config['SECRET_KEY'] = 'IYHJDGTYUT&^%^&%DTGY*YDH&^&TYGD&^T'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
